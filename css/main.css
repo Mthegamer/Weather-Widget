@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/***** Default *****/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
+    color: #000;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+    text-align: center;
+    color: #FFF;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    color: #FFF;
+}
+
+li {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+
+/***** Container *****/
+.weather-forecast {
+    min-width: 500px;
+    max-width: 760px;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+
+/***** Currently *****/
+.currently {
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(97, 209, 97);
+    border-radius: 15px;
+}
+
+.weather-desc, .weather-icon {
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+
+/***** Hourly *****/
+.hourly {
+    float: left;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.hourly ul {
+    clear: both;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.hourly ul li {
+    float: left;
+    width: 14%;
+}
+
+.title li {
+    text-decoration: underline;
+    color: green;
+}
+
+.content li {
+    position: relative;
+    top: 50px;
+    height: 80px;
+}
+
+.content li:nth-child(4) {
+    top: 30px;
+    left: 5px;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+}
+
+
+/***** Icon *****/
+.clear-day {
+    background: url("../img/clear-day.svg") no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.clear-night {
+    background: url("../img/clear-night.svg") no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.cloudy {
+    background: url("../img/cloudy.svg") no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.fog {
+    background: url("../img/fog.svg") no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.hail {
+    background: url("../img/hail.svg") no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.partly-cloudy-day {
+    background: url("../img/partly-cloudy-day.svg") no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.partly-cloudy-night {
+    background: url("../img/partly-cloudy-night.svg") no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.rain {
+    background: url("../img/rain.svg") no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.sleet {
+    background: url("../img/sleet.svg") no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.snow {
+    background: url("../img/snow.svg") no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.thunderstorm {
+    background: url("../img/thunderstorm.svg") no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.tornado {
+    background: url("../img/tornado.svg") no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.wind {
+    background: url("../img/wind.svg") no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
